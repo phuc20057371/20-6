@@ -1,6 +1,7 @@
 package receive;
 
 import java.util.Properties;
+
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
 import javax.jms.Destination;
@@ -12,7 +13,10 @@ import javax.jms.Session;
 import javax.jms.TextMessage;
 import javax.naming.Context;
 import javax.naming.InitialContext;
+
 import org.apache.log4j.BasicConfigurator;
+
+
 
 public class QueueReceiver {
 	public static void main(String[] args) throws Exception {

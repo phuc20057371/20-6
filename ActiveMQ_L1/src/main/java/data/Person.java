@@ -8,10 +8,6 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement
 @XmlType(propOrder = { "mssv", "hoten", "ngaysinh" })
 public class Person implements Serializable {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 4283007347974605168L;
 	private long mssv;
 	private String hoten;
 	private Date ngaysinh;
